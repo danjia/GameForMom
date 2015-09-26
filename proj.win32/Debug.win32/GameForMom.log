@@ -1,0 +1,26 @@
+﻿生成启动时间为 2015/9/26 17:17:12。
+     1>项目“K:\opensource\GameForMom\proj.win32\GameForMom.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         xcopy "K:\opensource\GameForMom\proj.win32\..\..\..\libraries\cocos2d-x-2.2.3\scripting\lua\script" "K:\opensource\GameForMom\proj.win32\..\Resources" /e /Y
+         :VCEnd
+         K:\opensource\GameForMom\proj.win32\..\..\..\libraries\cocos2d-x-2.2.3\scripting\lua\script\AudioEngine.lua
+         K:\opensource\GameForMom\proj.win32\..\..\..\libraries\cocos2d-x-2.2.3\scripting\lua\script\CCBReaderLoad.lua
+         K:\opensource\GameForMom\proj.win32\..\..\..\libraries\cocos2d-x-2.2.3\scripting\lua\script\Cocos2d.lua
+         K:\opensource\GameForMom\proj.win32\..\..\..\libraries\cocos2d-x-2.2.3\scripting\lua\script\CocoStudio.lua
+         K:\opensource\GameForMom\proj.win32\..\..\..\libraries\cocos2d-x-2.2.3\scripting\lua\script\extern.lua
+         K:\opensource\GameForMom\proj.win32\..\..\..\libraries\cocos2d-x-2.2.3\scripting\lua\script\json.lua
+         复制了 6 个文件
+       PreLinkEvent:
+         if not exist "K:\opensource\GameForMom\proj.win32\Debug.win32\" mkdir "K:\opensource\GameForMom\proj.win32\Debug.win32\"
+         xcopy /Y /Q "K:\opensource\GameForMom\proj.win32\..\..\..\libraries\cocos2d-x-2.2.3\external\libwebsockets\win32\lib\*.*" "K:\opensource\GameForMom\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         D:\program_setup\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\opensource\GameForMom\proj.win32\Debug.win32\GameForMom.exe" /INCREMENTAL /NOLOGO /LIBPATH:K:\opensource\GameForMom\proj.win32\Debug.win32\ libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libCocosDenshion.lib liblua.lib lua51.lib websockets.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:\opensource\GameForMom\proj.win32\Debug.win32\GameForMom.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\opensource\GameForMom\proj.win32\Debug.win32\GameForMom.lib" /MACHINE:X86 Debug.win32\AppDelegate.obj
+         Debug.win32\main.obj
+         GameForMom.vcxproj -> K:\opensource\GameForMom\proj.win32\Debug.win32\GameForMom.exe
+     1>已完成生成项目“K:\opensource\GameForMom\proj.win32\GameForMom.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.16
