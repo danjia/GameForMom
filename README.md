@@ -8,3 +8,9 @@
 FaileEffect.png
 TimeOverEffect.png
 WinEffect.png
+
+
+
+
+以下是游戏截图:
+![image](https://github.com/danjia/GameForMom/blob/master/ScreenShots/ScreenShots1.png)
